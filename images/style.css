@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #080808;
+    color: #fff;
+  }
+  #header {
+    width: 100%;
+    height: 70vh;
+    /* background-image: url(images/user.png); */
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40%;
+    background-position-y: 150px;
+  }
+  .container {
+    padding: 10px 10%;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .logo {
+    width: 100px;
+    height: 80px;
+    margin-left: -7%;
+    margin-bottom: 15%;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 1px 5px 180px 50px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+  }
+  nav ul li a::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+  }
+  nav ul li a:hover::after {
+    width: 100%;
+  }
+  .header-text {
+    margin-left: -7%;
+    font-size: 30px;
+    margin-bottom: 200px;
+  }
+  .header-text h1 {
+    font-size: 50px;
+    margin-top: 2%;
+    margin-right: 30%;
+  }
+  
+  /* about */
+  
+  #about {
+    position: relative;
+  }
+  .user-about {
+    position: absolute;
+    top: 20px;
+    left: 450px;
+    width: 980px;
+    /* font-family: "Courier New", Courier, monospace; */
+    font-size: 25px;
+    text-align: justify;
+  }
+  .user-img {
+    width: 300px;
+    height: 300px;
+    margin-left: 80px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .card-img-top {
+    width: 200px;
+    height: 200px;
+  }
+  .card {
+    margin: 30px;
+    border: 2px solid white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    position: relative;
+  }
+  .img1-style {
+    position: absolute;
+    width: 200px;
+    border: 2px solid white;
+    margin-left: 400px;
+    margin-top: 20px;
+    padding: 10px;
+    height: 200px;
+  }
+  .img2-style {
+    position: absolute;
+    width: 200px;
+    left: 700px;
+    border: 2px solid white;
+    margin: 20px;
+    padding: 10px;
+    height: 200px;
+  }
+  .img3-style {
+    position: absolute;
+    width: 200px;
+    left: 1000px;
+    border: 2px solid white;
+    margin: 20px;
+    padding: 10px;
+    height: 200px;
+  }
+  .img1-product {
+    width: 220px;
+  }
+  .footer-style {
+    /* background-color: #fff;
+    color: #080808; */
+    padding-left: 70px;
+    margin: 10px;
+  }
+  .from-style {
+    margin: 10px;
+  }
+  h2,
+  h3 {
+    padding: 5px;
+  }
+  input,
+  select,
+  button {
+    width: 700px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+  textarea {
+    width: 700px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+  button {
+    background-color: darkblue;
+    color: white;
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+  .footer {
+    margin: 50px;
+  }
+  .Academic-style {
+    position: relative;
+    margin-left: 80px;
+    /* border: 2px solid white; */
+    text-decoration: none;
+  }
+  .certification {
+    position: absolute;
+    top: 0px;
+    left: 750px;
+    border: 2px solid white;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+  }
+  .edu {
+    border: 2px solid white;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+  }
+  li {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  p {
+    font-size: 20px;
+    padding: 10px;
+  }
+ 
+  
